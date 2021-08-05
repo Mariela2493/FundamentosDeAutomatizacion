@@ -8,8 +8,8 @@ public class TestAccount extends BaseClass{
     @Description("Validate test login was successful")
     @Test(description = "Test Login Success")
     public void Test_Login_Successful(){
-        String username = "juan.piedra@ucreativa.com";
-        String password = "asdf";
+        String username = "mariela.sanchez.fallas@ucreaativa.com";
+        String password = "12345";
 
         //Go To Login Page
         driver.findElement(By.xpath("//*[@id=\"top-links\"]/ul/li[2]/a/span[1]")).click();
@@ -33,8 +33,8 @@ public class TestAccount extends BaseClass{
     @Description("Validate that the login is working with non valid credentials")
     @Test(description = "Test Login Not Success")
     public void Test_Login_Unsuccessful(){
-        String username = "juan.piedra@ucreativa.com";
-        String password = "asdfasdf";
+        String username = "mariela.fallas@ucreaativa.com";
+        String password = "12345";
         String expectedMessage = "warning: no match for e-mail address and/or password.";
 
         //Go To Login Page

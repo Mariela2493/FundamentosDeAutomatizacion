@@ -15,7 +15,9 @@ public class TestSearch extends BaseClass{
         int results = Integer.parseInt(expectedResult);
 
         WebElement searchInput = driver.findElement(By.name("search"));
-        searchInput.sendKeys(searchCriteria, Keys.ENTER);
+       searchInput.sendKeys(searchCriteria);
+       WebElement searchbtn = driver.findElement(By.className("fa-search"));
+       searchbtn.click();
 
         Assert.assertTrue(driver.getCurrentUrl().contains("search="+searchCriteria));
 
@@ -32,7 +34,8 @@ public class TestSearch extends BaseClass{
         int expectedResult = 0;
 
         WebElement searchInput = driver.findElement(By.name("search"));
-        searchInput.sendKeys(searchCriteria, Keys.ENTER);
+        WebElement searchbtn = driver.findElement(By.className("fa-search"));
+        searchbtn.click();
 
         //Assert.assertTrue(driver.getCurrentUrl().contains("search="+searchCriteria));
 
