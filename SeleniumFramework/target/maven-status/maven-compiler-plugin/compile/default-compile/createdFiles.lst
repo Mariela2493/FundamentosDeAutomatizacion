@@ -1,0 +1,6 @@
+PageObjects\RegisterPage.class
+PageObjects\BaseClass.class
+PageObjects\SearchResultsPage.class
+PageObjects\HeaderPage.class
+PageObjects\LoginPage.class
+pojo\SearchData.class

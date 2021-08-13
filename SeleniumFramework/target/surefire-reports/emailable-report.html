@@ -8,23 +8,13 @@
 <body>
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
-<tr><th colspan="7">Account Tests</th></tr>
-<tr><td><a href="#t0">Login Tests - Chrome</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">16,683</td><td></td><td></td></tr>
-<tr class="stripe"><td><a href="#t1">Search Tests - </a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">18,985</td><td></td><td></td></tr>
-<tr><th>Total</th><th class="num">2</th><th class="num">0</th><th class="num">0</th><th class="num attn">2</th><th class="num">35,668</th><th colspan="2"></th></tr>
+<tr><th colspan="7">Search Tests</th></tr>
+<tr><td><a href="#t0">Search Tests - Chrome</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">17,558</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Account Tests</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Login Tests - Chrome &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">TestAccount</td><td><a href="#m0">Test_Login_Successful</a></td><td rowspan="1">1628183367234</td><td rowspan="1">1763</td></tr><tr class="passedeven"><td><a href="#m1">Test_Login_Unsuccessful</a></td><td rowspan="1">1628183373039</td><td rowspan="1">1391</td></tr></tbody>
-<tbody id="t1"><tr><th colspan="4">Search Tests -  &#8212; failed</th></tr><tr class="failedeven"><td rowspan="2">TestSearch</td><td><a href="#m2">Test_Empty_Results</a></td><td rowspan="1">1628183385511</td><td rowspan="1">101</td></tr><tr class="failedeven"><td><a href="#m3">Validate_Search</a></td><td rowspan="1">1628183393634</td><td rowspan="1">47</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Search Tests</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Search Tests - Chrome &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">selenium.TestSearch</td><td><a href="#m0">Test_Search_WithData</a></td><td rowspan="3">1628871585378</td><td rowspan="3">664</td></tr><tr class="passedeven"><td><a href="#m1">Test_Search_WithData</a></td></tr><tr class="passedeven"><td><a href="#m2">Test_Search_WithData</a></td></tr></tbody>
 </table>
-<h2>Login Tests - Chrome</h2><h3 id="m0">TestAccount#Test_Login_Successful</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">TestAccount#Test_Login_Unsuccessful</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h2>Search Tests - </h2><h3 id="m2">TestSearch#Test_Empty_Results</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: Expecting 0 results, but got 4 expected [0] but found [4]
-	at TestSearch.Test_Empty_Results(TestSearch.java:42)
-	at java.util.ArrayList.forEach(ArrayList.java:1249)
-... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">TestSearch#Validate_Search</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>iphone</td><td>1</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: did not expect to find [true] but found [false]
-	at TestSearch.Validate_Search(TestSearch.java:20)
-	at java.util.ArrayList.forEach(ArrayList.java:1249)
-... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Search Tests - Chrome</h2><h3 id="m0">selenium.TestSearch#Test_Search_WithData</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>pojo.SearchData@615439f7</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">selenium.TestSearch#Test_Search_WithData</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>pojo.SearchData@7ccd611e</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">selenium.TestSearch#Test_Search_WithData</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>pojo.SearchData@6cdbe5ec</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
