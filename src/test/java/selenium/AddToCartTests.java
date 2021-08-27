@@ -53,7 +53,7 @@ public class AddToCartTests extends BaseClass {
         Assert.assertTrue(shoppingCartPage.checkOutMessage().contains(expectedErrorMessageCheckOut));
     }
 
-    //Tercer  caso de Prueba
+    //Tercer  caso de Prueba Proyecto
     @Test(dataProvider = "getProductPricesDataFromJson", dataProviderClass = ProductPricesProvider.class)
     public void Test_Currency_Values(ProductsPrices testProduct) {
 
